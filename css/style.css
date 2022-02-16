@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input {
+    all: unset;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+.container {
+    margin: 0 300px;
+}
+.piano__wrapper {
+    width: 1920px;
+    height: 937px;
+    background-image: url(../img/Good-Wallpaper-Full-HD-Free-Download-for-Laptop-Desktop-PC-2610-Wallpaperxyz.com-32.jpg);
+}
+.container__kyboard {
+    display: flex;
+    justify-content: space-between;
+}
+.container__info {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    margin-top: 400px;
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #4f4f4f;
+    margin: 400px auto;
+}
+.container__info:hover {
+    background-color: #dafa5c;
+}
+.container__info:active {
+    background-color: #fdfdfd;
+    transition: all 0.3s;
+}
+.piano__title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.piano__press {
+    padding-top: 10px;
+    text-align: center;
+}
