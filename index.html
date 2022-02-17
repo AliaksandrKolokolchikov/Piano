@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Your Piano</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="piano__wrapper">
-        <div class="container">
-            <div class="container__kyboard">
-                <button class="container__info">
-                    <div class="piano__title">F</div>
-                    <div class="piano__press">Press F</div>
-                </button>
+      <div class="container">
+        <div class="container__kyboard">
+          <button class="container__info" data-key="70">
+            <div class="piano__title">F</div>
+            <div class="piano__press">Press F</div>
+          </button>
 
-                <button class="container__info">
-                    <div class="piano__title">G</div>
-                    <div class="piano__press">Press G</div>
-                </button>
+          <button class="container__info" data-key="71">
+            <div class="piano__title">G</div>
+            <div class="piano__press">Press G</div>
+          </button>
 
-                <button class="container__info">
-                    <div class="piano__title">H</div>
-                    <div class="piano__press">Press H</div>
-                </button>
+          <button class="container__info" data-key="72">
+            <div class="piano__title">H</div>
+            <div class="piano__press">Press H</div>
+          </button>
 
-                <button class="container__info">
-                    <div class="piano__title">J</div>
-                    <div class="piano__press">Press J</div>
-                </button>
+          <button class="container__info" data-key="74">
+            <div class="piano__title">J</div>
+            <div class="piano__press">Press J</div>
+          </button>
 
-                <button class="container__info">
-                    <div class="piano__title">K</div>
-                    <div class="piano__press">Press K</div>
-                </button>
+          <button class="container__info" data-key="75">
+            <div class="piano__title">K</div>
+            <div class="piano__press">Press K</div>
+          </button>
 
-                <button class="container__info">
-                    <div class="piano__title">L</div>
-                    <div class="piano__press">Press L</div>
-                </button>
-            </div>
+          <button class="container__info" data-key="76">
+            <div class="piano__title">L</div>
+            <div class="piano__press">Press L</div>
+          </button>
         </div>
+      </div>
     </section>
-</body>
-
+    <audio src="./sounds/piano-a-1.mp3" data-key="70"></audio>
+    <audio src="./sounds/piano-b-1.mp3" data-key="71"></audio>
+    <audio src="./sounds/piano-c-1.mp3" data-key="72"></audio>
+    <audio src="./sounds/piano-d-1.mp3" data-key="74"></audio>
+    <audio src="./sounds/piano-e-1.mp3" data-key="75"></audio>
+    <audio src="./sounds/piano-f-1.mp3" data-key="76"></audio>
+    <script src="./script.js"></script>
+  </body>
 </html>
